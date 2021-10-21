@@ -13,6 +13,8 @@ div img
 }
 footer
 {
+    border: black 1px solid;
+    width: 100%;
     display: flex;
     justify-content: space-between;
 }
@@ -31,4 +33,9 @@ footer
 {
     margin-top: 20px;
     margin-right: 15px;
+}
+.boite_droite
+{
+    border: black 2px solid;
+    float: right;
 }
