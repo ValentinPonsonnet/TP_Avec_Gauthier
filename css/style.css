@@ -19,5 +19,16 @@ footer
 .reseauxsociaux
 {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
+    clear: both;
+}
+.column
+{
+    display: flex;
+}
+.image
+{
+    margin-top: 20px;
+    margin-right: 15px;
 }
