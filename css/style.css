@@ -2,12 +2,6 @@
     padding:0;
     margin:0
 }
-
-body
-{
-    background-color: blueviolet;
-}
-
 header
 {
     display: flex;
@@ -23,12 +17,13 @@ nav {
 nav ul {
     display:flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 nav li {
     text-decoration: none;
     padding:16px 70px;
     transition-property: background-color;
-    transition-duration: .4s;
+    transition-duration: 0.4s;
 }
 nav li:hover {
     background-color: #1f1f1f
@@ -62,19 +57,6 @@ footer
 {
     margin-right:20px
 }
-.column
-{
-    display: flex;
-}
-.image
-{
-    margin-right: 15px;
-}
-.boite_droite
-{
-    border: black 2px solid;
-    float: right;
-}
 .liens-rapides{
     text-align:center
 }
@@ -97,4 +79,31 @@ footer
 }
 .contact-footer p:not(:first-child){
     line-height: 25px;
+}
+.blog_left img
+{
+    display: flex;
+    float: left;
+    margin-right: 15px;
+    margin-top: 5px;
+}
+.blog_right img
+{
+
+    display: flex;
+    float: right;
+    margin-left: 15px;
+    margin-top: 5px;
+}
+.blog_right h2
+{
+    margin-top: 15px;
+}
+.blog_left h2
+{
+    margin-top: 15px;
+}
+.blog_right p, .blog_left p
+{
+    text-align: justify;
 }
