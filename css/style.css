@@ -1,0 +1,23 @@
+header
+{
+    display: flex;
+}
+nav a
+{
+    text-decoration: none;
+    justify-content: space-around;
+}
+div img
+{
+    float: left;
+}
+footer
+{
+    display: flex;
+    justify-content: space-between;
+}
+.reseauxsociaux
+{
+    display: flex;
+    justify-content: space-around;
+}
