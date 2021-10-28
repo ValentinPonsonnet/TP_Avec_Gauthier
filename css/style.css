@@ -1,12 +1,13 @@
 * {
     padding:0;
-    margin:0
+    margin:0;
 }
 header
 {
     display: flex;
     padding:25px;
     background-color: #e9e9e9;
+    text-align: center;
 }
 header img{
     margin-right:25px
@@ -45,6 +46,7 @@ footer
     justify-content: space-between;
     background-color: #e9e9e9;
     border-top: 1px solid #000;
+
 }
 .reseauxsociaux
 {
@@ -89,7 +91,6 @@ footer
 }
 .blog_right img
 {
-
     display: flex;
     float: right;
     margin-left: 15px;
@@ -117,7 +118,8 @@ form
 .article
 {
     column-count: 2;
-
+    text-align: justify;
+    margin-bottom: 5px;
 }
 .image 
 {
