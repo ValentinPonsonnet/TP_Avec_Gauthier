@@ -108,6 +108,12 @@ footer
 {
     text-align: justify;
 }
+.blog_left, .blog_right
+{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: solid 2px black;
+}
 form 
 {
     display: flex;
